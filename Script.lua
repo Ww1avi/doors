@@ -157,8 +157,6 @@ local time = Window:MakeTab({
     PremiumOnly = false
 })
 
-time:AddParagraph("sorry guys", "so far only ordinary entities")
-
 time:AddButton({
     Name = "Screech Every 15 Secs",
     Callback = function ()
@@ -222,7 +220,7 @@ time:AddButton({
     end
 })
 
-time:AddParagraph("Bug", "it crashes when i click on spawn rush")
+time:AddParagraph("Warning", "it crashes when clicked on spawn rush!")
 
 time:AddButton({
     Name = "Spawn Rush Every 15 Secs",
